@@ -1,0 +1,16 @@
+Chessboard Using CSS Grid
+This project demonstrates how to create a simple chessboard using HTML and CSS with the CSS Grid layout. The chessboard consists of 8x8 squares, alternating between two colors to represent the black and white squares of a chessboard.
+
+Features
+Grid Layout: Utilizes the CSS Grid layout to create an 8x8 grid for the chessboard.
+Alternating Colors: Squares alternate between two colors to mimic a traditional chessboard, with white squares being #f0d9b5 and black squares being #b58863.
+Responsive Design: Each square is 100px by 100px, ensuring a uniform and visually appealing layout.
+Code Explanation
+HTML Structure
+The HTML code sets up the basic structure for the chessboard. A container div with the class container holds 64 child div elements, each representing a square on the chessboard. The squares alternate between the classes white and black to achieve the alternating color pattern.
+
+CSS Styling
+The CSS code defines the styles for the chessboard:
+
+Container: The container class is styled to use CSS Grid with 8 rows and 8 columns, each taking up an equal fraction of the available space.
+Squares: The white and black classes define the colors and dimensions for the squares. Each square is 100px by 100px, ensuring a uniform size across the board.
